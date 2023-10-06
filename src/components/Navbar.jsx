@@ -9,9 +9,10 @@ export default function Navbar() {
         <ul className='flex justify-evenly'>
             <Link href='test/me'>l1</Link>
             <Link href="">l1</Link>
-            <Link href="">l1</Link>
+            <Link href="">l1 demo</Link>
             <Link href="">l1</Link>
         </ul>
+        <span>hello</span>
     </div>
     </div>
   )
