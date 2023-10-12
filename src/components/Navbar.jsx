@@ -4,15 +4,15 @@ import React from 'react'
 export default function Navbar() {
   return (
     <div className='flex flex-row w-full justify-between py-5 px-7'>
-    <div className='basis-1/3'>LOGO</div>
-    <div className='basis-2/3'>
+    <div className='w-[50%]'>LOGO</div>
+    <div className='w-[50%] items-end'>
         <ul className='flex justify-evenly'>
-            <Link href='test/me'>l1</Link>
-            <Link href="">l1</Link>
-            <Link href="">l1</Link>
-            <Link href="">l1</Link>
+            <Link href='about'>About Us</Link>
+            <Link href="courses">Buy Courses</Link>
+            <Link href="contact">Contact</Link>
+            <Link href="login">Log In</Link>
         </ul>
-    </div>
+    </div> 
     </div>
   )
 }
